@@ -22,7 +22,7 @@ const SendPage = () => {
     console.log('hash', hash)
     return (
         <div>
-            <div className='p-4'>
+            <div className='p-4 max-w-[600px]'>
                 <h1 className='text-xl font-bold mb-4'>Send Transaction</h1>
                 <form onSubmit={handleSubmit} className='flex flex-col gap-4'>
                     <label>
